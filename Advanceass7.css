@@ -1,0 +1,38 @@
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color:springgreen;
+}
+
+button{
+     padding: 15px 40px;
+     border: 0;
+     border-radius: 10px;
+     animation-name: bounce ;
+     animation: bounce 0.8s infinite alternate;
+
+     background-image: linear-gradient(to right, rgba(69,103,221,1), rgba(60,51,194,1));
+
+}
+a{
+     font-weight: bold;
+     text-decoration: none;
+     color: #fff;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+@keyframes bounce {
+      from{
+          transform: translateY(-25%);
+          animation-timing-function: cubic-bezier(0.8, 0,1,1);
+
+      }
+      to{
+          transform: translateY(0);
+          animation-timing-function: cubic-bezier(0,0,0.2,1);
+      }
+     
+}

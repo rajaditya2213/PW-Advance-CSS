@@ -1,0 +1,46 @@
+body{
+     background-color:slateblue;
+}
+:root{
+     --d-flex:flex;
+     --p-10:10px;
+     --color-white:#fff;
+     --color-grey:#ffffff62;
+}
+
+.card{
+     border: 3px solid var(--color-white);
+     display: var(--d-flex);
+     background: #242b2e;
+     width: 450px;
+     margin: auto;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: var(--p-10);
+     border-radius: 20px;
+
+}
+
+h1{
+     color: var(--color-white);
+     font-size: 30px;
+     text-align: center;
+
+}
+
+p{
+     max-height: 200px;
+     overflow-y: scroll;
+     padding: var(--p-10);
+     color: var(--color-grey);
+}
+
+::-webkit-scrollbar{
+     width: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+     background-color: var(--color-grey);
+     border-radius: 2px;
+}

@@ -1,0 +1,21 @@
+.spiner{
+     display: flex;
+     border: 5px solid#f3f3f3;
+     border-top: 5px solid #242b2e;
+     border-radius: 50%;
+     height: 50px;
+     width: 50px;
+     margin: auto;
+     margin-top: 25%; 
+     animation: Loading 2s linear infinite;
+}
+
+@keyframes Loading{
+     from{
+          transform: rotate(0deg);
+     }
+     to{
+          transform: rotate(360deg);
+     }
+     
+}
